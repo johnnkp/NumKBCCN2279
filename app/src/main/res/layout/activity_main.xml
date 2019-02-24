@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="5"
+    android:rowCount="4">
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:text="Num\nLock" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:text="/" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:text="*" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:text="-" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:layout_column="1"
+        android:text="7\nHome" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:text="8\n↑" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:text="9\nPgUp" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"
+        android:text="+" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:layout_column="1"
+        android:text="4\n←" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:text="5\n" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:text="6\n→" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:layout_column="1"
+        android:text="1\nEnd" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:text="2\n↓" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:text="3\nPgDn" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"
+        android:text="Enter" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="0\nIns" />
+
+    <Button
+        android:layout_width="85.0dip"
+        android:layout_height="85.0dip"
+        android:text=".\nDel" />
+</GridLayout>
